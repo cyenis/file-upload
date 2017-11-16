@@ -12,7 +12,9 @@ var index = require('./routes/index');
 var app = express();
 
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost:27017/lab-express-file-upload", {
+// mongoose.connect("mongodb://localhost:27017/lab-express-file-upload", {
+mongoose.connect("mongodb://heroku_1nz4g9k3:2nfunka3r2d9n2l7nufea68eqc@ds111336.mlab.com:11336/heroku_1nz4g9k3", {
+
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE,
   useMongoClient: true
