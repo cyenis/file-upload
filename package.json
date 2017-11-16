@@ -4,11 +4,11 @@
   "private": true,
   "engines": {
     "node": "7.2.0",
-    "npm": "3.10."
+    "npm": "3.10.9"
   },
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "start-dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
